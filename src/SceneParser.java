@@ -5,7 +5,7 @@ import java.io.IOException;
 
 class SceneParser {
 	
-	public static String FileName = "/Resources/SceneLayout.txt";
+	public static String FileName = System.getProperty("user.dir") + "/Resources/SceneLayout.txt";
 			
 	public SceneParser() {}
 	
