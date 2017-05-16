@@ -18,8 +18,8 @@ class SceneParser {
 			fr = new FileReader(FileName);
 			br = new BufferedReader(fr);
 			String sCurrentLine;
-
-			br = new BufferedReader(new FileReader(FileName));
+			//redundancy?
+			//br = new BufferedReader(new FileReader(FileName));
 
 			while ((sCurrentLine = br.readLine()) != null) {
 				System.out.println(sCurrentLine);
