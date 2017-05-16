@@ -24,7 +24,7 @@ class SceneParser {
 
 			while ((sCurrentLine = br.readLine()) != null) {
 				
-				//System.out.println(sCurrentLine); //turn the string into code
+				//System.out.println(sCurrentLine);
 				sList[i] = sCurrentLine;
 				System.out.println(i+" "+sList[i]);
 				i += 1;
