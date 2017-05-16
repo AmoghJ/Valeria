@@ -1,5 +1,7 @@
 package Characters;
 
+import java.util.ArrayList;
+
 public class Character {
 	
 	private int health = 20;
@@ -58,7 +60,16 @@ public class Character {
 	}
 	public String getN() {
 		return this.name;
+	}		
+	
+	
+	public String characters_name;
+	ArrayList<Character> characters;
+	
+	public Character(String name) {
+		characters_name = name;
+		characters = new ArrayList<Character>();
 	}
-		
+	
 }
 

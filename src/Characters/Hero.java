@@ -15,7 +15,6 @@ public class Hero extends Character{
 	public void setE(int exp) {
 		this.exp = this.exp + exp;
 	}
-	
 	public int getC() {
 		return this.coin;
 	}
