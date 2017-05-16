@@ -18,11 +18,16 @@ class SceneParser {
 			fr = new FileReader(FileName);
 			br = new BufferedReader(fr);
 			String sCurrentLine;
-			//redundancy?
+			String[] sList= new String[1000];
+			int i = 0;
 			//br = new BufferedReader(new FileReader(FileName));
 
 			while ((sCurrentLine = br.readLine()) != null) {
-				System.out.println(sCurrentLine);
+				
+				//System.out.println(sCurrentLine); //turn the string into code
+				sList[i] = sCurrentLine;
+				System.out.println(i+" "+sList[i]);
+				i += 1;
 			}
 			
 		} catch(IOException e) {
