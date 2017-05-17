@@ -146,4 +146,6 @@ class SceneParser {
 		
 		return null;
 	}
+	
+	private static void testKeith() {}
 }
