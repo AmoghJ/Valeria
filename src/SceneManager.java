@@ -8,10 +8,11 @@ class SceneManager {
 	private static SceneManager instance;
 	
 	Scene currentScene;
+	JFrame frame;
 	
 	private SceneManager() 
 	{
-		JFrame frame = new JFrame();
+		frame = new JFrame();
 		frame.setTitle("Simple example");
 		frame.setSize(300, 200);
 		frame.setLocationRelativeTo(null);
@@ -27,6 +28,8 @@ class SceneManager {
 	
 	public void update() {
 		
+		if(currentScene != null)
+			frame.setTitle(currentScene.scene_name);
 	}
 	
 }

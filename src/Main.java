@@ -9,11 +9,7 @@ public class Main {
 		ArrayList<Scene> scenes = new SceneParser().parseScene();
 		SceneManager sceneManager = SceneManager.getInstance();
 		
-		boolean quit = false;
-		
-		//while(!quit) {
-			
-		//}
+		sceneManager.currentScene = scenes.get(0);
 		
 	}
 }
