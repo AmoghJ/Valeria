@@ -25,7 +25,7 @@ class SceneParser {
 			
 	public SceneParser() {}
 	
-	public static void main(String[] args) {
+	public static ArrayList<Scene> parseScene() {
 		
 		BufferedReader br = null;
 		FileReader fr = null;
@@ -80,6 +80,8 @@ class SceneParser {
 				lineNumber++;
 			}
 			
+			return scenes;
+			
 		} catch(IOException e) {
 			
 			e.printStackTrace();
@@ -101,6 +103,7 @@ class SceneParser {
 			}
 		}
 		
+		return null;
 	}
 	
 //---------------Helper Methods-----------------------
@@ -146,6 +149,4 @@ class SceneParser {
 		
 		return null;
 	}
-	
-	private static void testKeith() {}
 }
