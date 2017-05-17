@@ -1,12 +1,39 @@
-/<Village> 
--<Town>
--<Castle>
+/<BanditCamp>
+-<Cave> 
+/<Castle>
+-<Village>
+/<Cave>
+-<BanditCamp>
+-<GreatPlains>
+/<DarkLands>
+-<DarkRealm>
+-<GreatPlains>
+-<MountDoom>
+/<DarkRealm>
+-<DarkLands>
+/<Forest>
 -<Home>
-/<Test 1>
--<Test 1>
--<Test 2>
--<Test 3>
-/<Test 3>
--<Test 1>
--<Test 2>
--<Test 3>
+-<OrcEncampment>
+/<GreatPlains>
+-<Cave>
+-<DarkLands>
+-<Home>
+-<Village>
+/<Home>
+-<Forest>
+-<GreatPlains>
+-<Village>
+/<MercenaryEncampment>
+-<Village>
+/<MountDoom>
+-<DarkLands>
+/<OrcEncampment>
+-<Forst>
+/<Village>
+-<Castle>
+-<GreatPlains>
+-<Home>
+-<MercenaryEncampment>
+-<WitchShack>
+/<WitchShack>
+-<Village>
