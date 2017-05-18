@@ -9,7 +9,7 @@ public class Main {
 		ArrayList<Scene> scenes = new SceneParser().parseScene();
 		SceneManager sceneManager = SceneManager.getInstance();
 		
-		sceneManager.currentScene = scenes.get(0);
-		
+		sceneManager.currentScene = scenes.get(3);
+		sceneManager.update();
 	}
 }
