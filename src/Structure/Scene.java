@@ -1,3 +1,4 @@
+package Structure;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
@@ -6,7 +7,7 @@ import javax.swing.JOptionPane;
 public class Scene {
 	
 	public String scene_name;
-	ArrayList<Scene> children;
+	public ArrayList<Scene> children;
 	
 	public Scene(String name) {
 		scene_name = name;
@@ -17,5 +18,17 @@ public class Scene {
 		JOptionPane optionPane = new JOptionPane(null, JOptionPane.DEFAULT_OPTION,1);
 	}
 	
+	public int currentScene;
+	
+	public Scene CurrentScene() {
+		return children.get(currentScene);
+	}
+	
+	public void setScene() {
+		this.currentScene = currentScene;
+	}
+	
+	
+	
+	
 }
-//
